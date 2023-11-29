@@ -336,7 +336,7 @@ system_ext/lib64/vendor.mediatek.hardware.touchll@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
 # Camera
-lib64/libjni_pq.so
+lib64/libjni_pq.so|d21f54f51d5bd1f0659d9390f12544c9ceaaffc9
 vendor/bin/hw/camerahalserver
 vendor/etc/init/camerahalserver.rc
 vendor/lib/libasn1c_core.so
@@ -528,10 +528,12 @@ lib64/vendor.mediatek.hardware.pq@2.0.so
 lib64/vendor.mediatek.hardware.pq@2.1.so
 lib64/vendor.mediatek.hardware.pq@2.2.so
 lib64/vendor.mediatek.hardware.pq@2.3.so
+lib64/vendor.mediatek.hardware.pq_aidl-V1-ndk.so
 lib/vendor.mediatek.hardware.pq@2.0.so
 lib/vendor.mediatek.hardware.pq@2.1.so
 lib/vendor.mediatek.hardware.pq@2.2.so
 lib/vendor.mediatek.hardware.pq@2.3.so
+lib/vendor.mediatek.hardware.pq_aidl-V1-ndk.so
 vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
 vendor/etc/AbnormalDisplayLog_dynamic.xml
