@@ -173,7 +173,7 @@ ro.vendor.mtk_flv_playback_support=1
 
 # MediaTek
 ro.vendor.mediatek.version.branch=alps-mp-s0.mp1
-ro.vendor.mediatek.version.release=alps-mp-s0.mp1.rc-V12.11.1_s0mp1rc.k61v1.64.bsp_P41
+ro.vendor.mediatek.version.release=alps-mp-s0.mp1.rc-V15.40.1.s0mp1rc.k61v1.64.bsp_P3
 ro.vendor.mediatek.platform=MT6768
 
 # Misc
