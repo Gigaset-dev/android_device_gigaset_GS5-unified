@@ -69,9 +69,6 @@ BOARD_MKBOOTIMG_ARGS += --board ""
 # Display
 TARGET_SCREEN_DENSITY := 477
 
-# FM Radio
-BOARD_HAVE_MTK_FM := true
-
 # Init
 TARGET_INIT_VENDOR_LIB ?= //$(DEVICE_PATH):init_gigaset_gs5
 TARGET_RECOVERY_DEVICE_MODULES ?= init_gigaset_gs5
@@ -123,6 +120,7 @@ BOARD_HAS_MTK_HARDWARE := true
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Recovery
