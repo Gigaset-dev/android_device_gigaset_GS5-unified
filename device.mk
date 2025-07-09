@@ -425,6 +425,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Shims
 PRODUCT_PACKAGES += \
+    libbase_shim \
     libprocessgroup_shim
 
 # Thermal
