@@ -423,6 +423,10 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/mediatek
 
+# Shims
+PRODUCT_PACKAGES += \
+    libprocessgroup_shim
+
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0.vendor \
