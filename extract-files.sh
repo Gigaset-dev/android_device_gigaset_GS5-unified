@@ -94,6 +94,16 @@ function blob_fixup {
         vendor/lib64/libcam.utils.sensorprovider.so)
             "${PATCHELF}" --replace-needed "libsensorndkbridge.so" "libsensorndkbridge-v30.so" "${2}"
             ;;
+        vendor/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so|\
+        vendor/lib64/hw/audio.primary.mt6768.so|\
+        vendor/lib64/librt_extamp_intf.so|\
+        vendor/lib64/libpowerhal.so|\
+        vendor/lib/hw/vendor.mediatek.hardware.pq@2.15-impl.so|\
+        vendor/lib/hw/audio.primary.mt6768.so|\
+        vendor/lib/librt_extamp_intf.so|\
+        vendor/lib/libpowerhal.so)
+            "${PATCHELF}" --replace-needed "libtinyxml2.so" "libtinyxml2-v34.so" "${2}"    
+            ;;
         vendor/bin/hw/android.hardware.media.c2@1.2-mediatek)
             "${PATCHELF}" --add-needed "libstagefright_foundation-v33.so" "${2}"
             ;;
