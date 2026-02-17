@@ -983,7 +983,7 @@ vendor/lib/libfgauge_gm30.so
 -system_ext/framework/mediatek-telecom-common.jar
 -system_ext/framework/mediatek-telephony-base.jar
 -system_ext/framework/mediatek-telephony-common.jar
--system_ext/priv-app/ImsService/ImsService.apk|e2d3c7154ebe5ebc3594d4647d06d80fd1481cc7
+-system_ext/priv-app/ImsService/ImsService.apk|7da9ddb9d574253aceab1900909ae9d2149a6f1b
 system_ext/bin/vtservice
 system_ext/etc/init/init.vtservice.rc
 system_ext/framework/mediatek-ims-extension-plugin.jar
