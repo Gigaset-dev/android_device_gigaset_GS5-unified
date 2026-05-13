@@ -239,7 +239,7 @@ PRODUCT_PACKAGES += \
     libstagefright_softomx_plugin.vendor \
     libsfplugin_ccodec_utils.vendor \
     libcodec2_soft_common.vendor \
-    libstagefright_foundation-v33
+    libstagefright_foundation-v33.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
